@@ -9,7 +9,7 @@ python sabinum.py --help
 
 Usage
 
-bash python sabinum.py -d <domain> -w <wordlist> [options]
+ python sabinum.py -d <domain> -w <wordlist> [options]
 
 Arguments
 
@@ -20,19 +20,19 @@ Examples
 
 Basic scan:
 
-bash python sabinum.py -d example.com -w wordlist.txt
+ python sabinum.py -d example.com -w wordlist.txt
 
 Fast scan with more threads:
 
-bash python sabinum.py -d example.com -w wordlist.txt -t 100
+python sabinum.py -d example.com -w wordlist.txt -t 100
 
 Save results to file:
 
-bash python sabinum.py -d example.com -w wordlist.txt -o results.csv
+ python sabinum.py -d example.com -w wordlist.txt -o results.csv
 
 Full options:
 
-bash python sabinum.py -d example.com -w wordlist.txt -t 50 -T 5 -o output.csv
+python sabinum.py -d example.com -w wordlist.txt -t 50 -T 5 -o output.csv
 
 
 Output
